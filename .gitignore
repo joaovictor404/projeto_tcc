@@ -1,3 +1,46 @@
-ECHO est� ativado.
-*.log 
-node_modules/ 
+# Ignorar arquivos de configuração do ambiente
+.env
+
+# Ignorar arquivos de banco de dados SQLite
+db.sqlite3
+
+# Ignorar arquivos de migração do Django
+/migrations/
+
+# Ignorar arquivos de mídia (uploads de usuário, etc.)
+/media/
+
+# Ignorar arquivos estáticos coletados
+/staticfiles/
+
+# Ignorar arquivos de logs
+*.log
+
+# Ignorar arquivos de byte-compiled Python
+__pycache__/
+*.pyc
+
+# Ignorar o diretório de venv (ambiente virtual Python)
+venv/
+
+# Ignorar arquivos de dependências
+*.egg-info/
+dist/
+build/
+*.egg
+*.egg-info
+*.eggs/
+
+# Ignorar arquivos de configuração pessoal (por exemplo, PyCharm)
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+
+# Ignorar arquivos de backup (por exemplo, .bak, .swp)
+*~
+
+# Ignorar arquivos de configuração específicos do sistema
+.DS_Store
+Thumbs.db
+
